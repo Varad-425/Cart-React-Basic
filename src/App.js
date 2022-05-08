@@ -35,7 +35,7 @@ class App extends Component {
 	decrementQuantity = (index) => {
 		const newProductList = [...this.state.productList];
 		let totalPrice = this.state.totalAmount;
-		if (newProductList[index].quantity == 0) {
+		if (newProductList[index].quantity === 0) {
 			/* TODO document why this block is empty */
 		} else {
 			totalPrice = totalPrice - newProductList[index].price;

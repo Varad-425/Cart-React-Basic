@@ -59,7 +59,7 @@ class Footer extends Component {
 							</button>
 						</div>
 						<div className="col-4 text-light">
-							<label>{this.props.totalAmount}</label>
+							<label>Total : {this.props.totalAmount} Rs</label>
 						</div>
 					</div>
 				</nav>
